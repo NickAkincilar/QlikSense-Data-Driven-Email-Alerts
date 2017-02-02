@@ -1,7 +1,7 @@
 QlikSense: Sending Email Alerts from a load script based on data conditions
 ===========================================================================
 
-This setup allows you to send dynamic email alerts from  Qliksense load script
+This project allows you to send dynamic email alerts from  Qliksense load script
 based on data conditions/metric values such as Average Sales \> 10000.
 
 It uses the web file data source feature of Sense to call a NodeJS page that
