@@ -46,9 +46,9 @@ Here are the step
         as the server. If that is the case there is an extra step to edit your
         Gmail Security settings to allow 3rd party SMTP connections.
 
-    3.  **"Add This to services.conf file.txt" file**:  
+    3.  Open **"Add This to services.conf file.txt" file**:  
 
-        1.  Open this file and copy the contents.
+        1.  Copy the contents of this file.
 
         2.  **Stop** QlikSense Service Dispatcher service.
 
