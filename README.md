@@ -89,4 +89,4 @@ Script=..\\emailalert\\server.js
 Sample Load Script
 ==================
 
-![](media/02e0f364d3a5afcdc9d8031447f653b0.png)
+![](https://raw.githubusercontent.com/NickAkincilar/QlikSense-Data-Driven-Email-Alerts/Version1/media/02e0f364d3a5afcdc9d8031447f653b0.png)
