@@ -71,7 +71,7 @@ Here are the step
 Server.js file:
 ===============
 
-![C:\\e3092c5d540a14b7adc1278ef62dc3c2](media/230713eb67e1b43acb607fe6e0c27ed1.png)
+![C:\\e3092c5d540a14b7adc1278ef62dc3c2](https://github.com/NickAkincilar/QlikSense-Data-Driven-Email-Alerts/blob/Version1/media/230713eb67e1b43acb607fe6e0c27ed1.png?raw=true)
 
 
 
