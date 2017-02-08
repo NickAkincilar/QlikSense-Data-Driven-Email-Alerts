@@ -1,0 +1,13 @@
+{
+  "name": "basic-node-js_web-app",
+  "version": "0.0.0",
+  "description": "BasicNodeJS_WebAPP",
+  "main": "server.js",
+  "author": {
+    "name": "NAK",
+    "email": ""
+  },
+  "dependencies": {
+    "nodemailer": "^2.3.1"
+  }
+}
