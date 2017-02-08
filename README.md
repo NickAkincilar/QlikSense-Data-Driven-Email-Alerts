@@ -30,7 +30,7 @@ Here are the step
 1.  Make sure QlikSense(Desktop or Enterprise) is set up to use Legacy Mode.
 
 2.  Download the source files
-    here. [EmailAlertSetup.zip](https://github.com/NickAkincilar/QlikSense-Data-Driven-Email-Alerts/raw/Version1/SourceFiles/EmailAlertSetup.zip)
+    here. [EmailAlertSetup.zip](https://github.com/NickAkincilar/QlikSense-Data-Driven-Email-Alerts/raw/Version1/SourceFiles/QlikSenseEmailAlert_REST.zip)
 
 3.  UnZip the file in to a local folder.
 
