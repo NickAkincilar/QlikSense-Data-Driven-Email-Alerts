@@ -64,9 +64,11 @@ Here are the step
 
 6.  Copy the script from the **sampleLoadScript.txt** file in to load editor.
 
-7.  Modify the vFrom and VTo variables with the actual email addresses.
+7.  Create a REST Connector called **RestAlert** and set the URL to **http://YourSenseServer:1188**
 
-8.  Click on Load 
+8.  Modify the vFrom and VTo variables with the actual email addresses.
+
+9.  Click on Load 
 
 Server.js file:
 ===============
