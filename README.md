@@ -4,17 +4,17 @@ QlikSense: Sending Email Alerts from a load script based on data conditions
 This project allows you to send dynamic email alerts from  Qliksense load script
 based on data conditions/metric values such as Average Sales \> 10000.
 
-It uses the web file data source feature of Sense to call a NodeJS page that
-send SMTP email alerts based on URL parameters. It uses a nodeJS package called
-**nodemailer** to send out the email alerts. Currently these parameters are
-From, To, Subject & Body. NodeJS server page in this project is designed to
+It uses the REST data connector in Sense to call a custom NodeJS REST service that
+sends SMTP email alerts based on URL parameters. It uses a nodeJS package called
+**nodemailer** to send the actual email alerts. 
+
+REST Service is designed to recive email information as URL paramaters. Currently these parameters are From, To, Subject & Body. NodeJS server page in this project is designed to
 store the email SMTP server credentials as part of the server.js file so all
 emails will be sent from a central account. Code can be easily modified to take
 User/PW values as parameters as well so this can be controlled from the load
 script as well.
 
-**\*\*\* Calling Dynamic URLs for data load used in this method requires
-QlikSense server to be set to Legacy Mode**
+**\*\*\* LEGACY MODE is no longer needed! Previus version which returned HTML results needed this mode but the new XML data is compatible with Qlik's REST Connector so Legacy Mode is no longer requirede**
 
 *Warning/Disclaimer: This project is just a proof of concept design and not
 intended for commercial. It can be used as a starting point by customers to
@@ -30,7 +30,7 @@ Here are the step
 1.  Make sure QlikSense(Desktop or Enterprise) is set up to use Legacy Mode.
 
 2.  Download the source files
-    here. [EmailAlertSetup.zip](https://github.com/NickAkincilar/QlikSense-Data-Driven-Email-Alerts/raw/Version1/SourceFiles/QlikSenseEmailAlert_REST.zip)
+    here. [QlikSenseEmailAlert_REST.zip](https://github.com/NickAkincilar/QlikSense-Data-Driven-Email-Alerts/raw/Version1/SourceFiles/QlikSenseEmailAlert_REST.zip)
 
 3.  UnZip the file in to a local folder.
 
